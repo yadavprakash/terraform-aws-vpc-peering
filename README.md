@@ -46,26 +46,6 @@ module "vpc-peering" {
 }
 ```
 
-## Module Inputs
-
-The following inputs can be configured when using this module:
-
-- `name` (string): A name for the peering configuration.
-- `environment` (string): The environment in which the peering connection is being created.
-- `requestor_vpc_id` (string): The ID of the VPC that initiates the peering request.
-- `acceptor_vpc_id` (string): The ID of the VPC that accepts the peering request.
-- `label_order` (list of strings): The order in which labels should be applied to the peering connection.
-- `accept_region` (string): The AWS region where the accepting VPC is located.
-- `auto_accept` (bool): Whether to automatically accept the peering request (true/false).
-
-
-## Module Outputs
-
-This module provides no specific outputs.
-- id - The ID of the VPC Peering Connection.
-- accept_status - The status of the VPC Peering Connection request.
-- tags - (Optional) A map of tags to assign to the resource.
-
 
 ## Examples
 For detailed examples on how to use this module, please refer to the [examples](https://github.com/opsstation/terraform-aws-vpc-peering/tree/master/_example) directory within this repository.
@@ -76,6 +56,7 @@ This Terraform module is provided under the '[License Name]' License. Please see
 ## Author
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
