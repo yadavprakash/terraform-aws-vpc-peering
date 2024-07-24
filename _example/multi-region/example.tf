@@ -12,4 +12,3 @@ module "vpc-peering" {
   accept_region    = "us-east-1"
   auto_accept      = false
 }
-

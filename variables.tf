@@ -12,7 +12,7 @@ variable "environment" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-aws-vpc-peering"
+  default     = "https://github.com/yadavprakash/terraform-aws-vpc-peering"
   description = "Terraform current module repo"
 }
 
@@ -24,8 +24,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "yadavprakash"
+  description = "ManagedBy, eg 'yadavprakash'."
 }
 
 variable "enable_peering" {
